@@ -1,0 +1,155 @@
+body {
+    font-family: 'Poppins';
+}
+
+.call-sec-btn {
+    padding: 15px 30px;
+    background: #032f54;
+    color: #fff;
+    font-family: 'Poppins';
+    text-decoration: none;
+}
+
+.sec-meet-h {
+    font-size: 40px;
+    line-height: 50px;
+    padding: 20px 0px;
+    font: weight 500px;
+    ;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+.secbill-p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.sec-paaa {
+    padding: 40px 0px;
+}
+
+.sec-icon-bggg {
+    background-color: #5cdb95;
+    width: 60px;
+    height: 60px;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.sec-app-h {
+    font-size: 35px;
+    line-height: 45px;
+    color: #000;
+    padding: 10px 0px;
+}
+
+.sec-p2 {
+    font-size: 20px;
+}
+
+.sec-bg-gif {
+    background-color: #05386b;
+    padding: 30px;
+}
+
+.sec-img-mmm {
+    margin-top: -60px;
+}
+
+.sec-ll-h {
+    font-size: 30px;
+    color: #fff;
+    padding: 10px;
+}
+
+.sec-ll-pp {
+    font-size: 16px;
+    color: #fff;
+}
+
+.sec-makk-h {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 60px;
+}
+
+.sec-bll-p {
+    font-size: 18px;
+
+}
+
+.sec-tru-h {
+    font-size: 35px;
+}
+
+.sec-tru-padd {
+    padding: 60px 0px;
+    font-size: 30px;
+}
+.secppp-ss{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    padding-top: 20px;
+}
+.sec-good-r{
+    width: 200px;
+}
+.sec-incr-h{
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    padding:20px 0px;
+    color: #000;
+}
+.sec-btn-imggg{
+    width: 150px;
+    height: 150px;
+}
+.sec-video-paddimg{
+    padding: 60px 0px;
+}
+.sec-try-h{
+    color: #343a40!important;
+    font-size: 35px;
+    font-weight: 500;
+
+}
+.sec-video-paddimg2{
+    padding: 60px 0px;
+    background-color: #f2f2f7;
+}
+.sec-reg-p{
+    color: red;
+    font-weight: 700;
+    font-size: 18px;
+}
+input , select {
+    margin-top: 20px;
+}
+.sec-footer-padd{
+    padding: 60px 0px;
+}
+.sec-link-p{
+    color: #333;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 0px;
+}
+.d-sec-foo-icon{
+    font-size: 22px;
+    padding: 10px;
+    color: #000;
+}
+.lg-sec-ca{
+    text-decoration: none;
+    color: #343a40!important;
+    font-weight: 700;
+}
+.sec-copy-h{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 30px 0px 0px 0px;
+}

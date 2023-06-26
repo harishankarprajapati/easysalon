@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>easysalon.in</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cousine:ital,wght@0,400;0,700;1,400&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lobster&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Playball&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cousine:ital,wght@0,400;0,700;1,400&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lobster&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Playball&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+
+    <link rel="icon" href="images/logo.png">
+</head>
+
+<body>
+    <!-- header -->
+    <div class="container">
+        <div class="row m-0   align-items-center">
+            <div class="col-lg-6">
+                <img src="images/LOGO.png" alt="">
+            </div>
+            <div class="col-lg-6 d-flex justify-content-end">
+                <div class="">
+                    <a href="tel:+91-7888491153" class="call-sec-btn"><i class="fa-solid fa-phone"></i> +91-78884 91153
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- IMG -->
+    <div class="container text-center">
+        <h4 class="sec-meet-h">Meet a new-age salon and spa management system that is truly affordable, easy to use and
+            reliable.</h4>
+        <p class="secbill-p">Billing, appointments, commissions, stock inventory, client wallet, membership, bulk SMS,
+            mobile app and more...</p>
+        <img src="images/software-billing-screenshot.png" alt="">
+    </div>
+
+    <!--  -->
+    <div class="container sec-paaa">
+        <div class="row m-0">
+            <div class="col-lg-4">
+                <div class="pt-4">
+                    <div class="sec-icon-bggg">
+                        <img src="images/c-1.png" alt="">
+                    </div>
+                    <h4 class="sec-app-h">Appointment</h4>
+                    <p class="sec">Your instagram followers need a space where they can book appointments, pay online,
+                        and keep
+                        track of their salon visits. They’re in the mood for pampering—and we want to help them feel
+                        better from head to toe.</p>
+                </div>
+                <div class="pt-4">
+                    <div class="sec-icon-bggg">
+                        <img src="images/c-3.png" alt="">
+                    </div>
+                    <h4 class="sec-app-h">Showcase offers & gallery</h4>
+                    <p class="sec">Ever wonder where you can showcase your recent works & latest offers formally? Easy
+                        Salon Software QR gives you option to showcase offers & recent works.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="pt-4">
+                    <div class="sec-icon-bggg">
+                        <img class="w-100" src="images/c-2.png" alt="">
+                    </div>
+                    <h4 class="sec-app-h">Self Check-in</h4>
+                    <p class="sec">The ultimate in customer care. Self checkin option is available for you to give your
+                        clients a memorable experience, it also updates your service provider to get ready to pamper
+                        their needs.</p>
+                </div>
+                <div class="pt-4">
+                    <div class="sec-icon-bggg">
+                        <img class="w-100" src="images/c-4.png" alt="">
+                    </div>
+                    <h4 class="sec-app-h">Reviews</h4>
+                    <p class="sec">Easy Salon QR is the only platform where you can show your google and facebook
+                        reviews together!</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="sec-bg-gif">
+                    <div class="sec-img-mmm">
+                        <img class=" w-100  " src="images/qr-scan.gif" alt="">
+                    </div>
+                    <h4 class="sec-ll-h">Scan Easy Salon QR</h4>
+                    <p class="sec-ll-pp">No more need to pay for mobile apps.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Marketing -->
+    <div class="container">
+        <div class="row m-0">
+            <div class="col-lg-6">
+                <img class="w-100" src="images/marketing-salon.png" alt="">
+            </div>
+            <div class="col-lg-6">
+                <h4 class="sec-makk-h">
+                    Marketing tools that get you more business everyday.</h4>
+                <p class="sec-bll-p"><b>Client refferal </b>Reward your clients with extra reward points when they
+                    reffer you a new client.</p>
+                <p class="sec-bll-p"><b>Bulk SMS & eMail </b>Our premium bulk SMS and eMail service is
+                    designed for businesses who want to promote their discount offers and packages on one click.</p>
+                <p class="sec-bll-p"><b>Gift cards </b>Easy Salon gift cards are the perfect gift for
+                    any special occasion. Your clients will be thrilled to receive a gift card from you!</p>
+                <p class="sec-bll-p"><b>Online appointment </b>We give you a URL / link that you can update
+                    on your facebook & insta profile to get more appointments & payments online.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Retain  -->
+
+    <div class="container">
+        <div class="row m-0">
+            <div class="col-lg-6">
+                <img class="w-100" src="images/retain-clients.png" alt="">
+            </div>
+            <div class="col-lg-6">
+                <h4 class="sec-makk-h">
+                    Retain more clients</h4>
+                <p class="sec-bll-p"><b>Reward points </b>Earn reward points when your clients visit our
+                    salon and use them to get cash discount on next visit.</p>
+                <p class="sec-bll-p"><b>e-Wallet & Packages </b>Making payment easy for you & your
+                    clients is our top priority. With e-wallet, you can give them a hassle free experience of payments
+                    and sell them customized packages or service bundles.</p>
+                <p class="sec-bll-p"><b>Automatic service reminders</b> Your client's experience is only as
+                    good as their last visit. Every time they come back to your salon, let us know with a service
+                    reminder—it's the easiest way to keep them coming back for more.</p>
+
+            </div>
+        </div>
+    </div>
+    <!-- Reports that  -->
+
+    <div class="container">
+        <div class="row m-0">
+            <div class="col-lg-6">
+                <img class="w-100" src="images/reports.png" alt="">
+            </div>
+            <div class="col-lg-6">
+                <h4 class="sec-makk-h">
+                    Reports that drive better results.</h4>
+                <p class="sec-bll-p"><b>Daily business </b>reports This single report tells you everyday
+                    about today! Sales, collections, new clients, new appointments, packages sold and almost everything
+                    you need to know about your business.</p>
+                <p class="sec-bll-p"><b>Service provider reportA </b> Service Provider Report gives
+                    you an overview of your current customer, how many payment they are making, their ratings, and also
+                    gives you access to their work schedule. This is a tool that will help you track everything!</p>
+                <p class="sec-bll-p"><b>20+ graphical reports </b> You get 20+ reports to get
+                    deep insights about your business that will take you better decisions ahead.</p>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Trusted -->
+    <div class="container text-center sec-tru-padd">
+        <h5 class="sec-tru-h">Trusted by 2000+ salons & med spas in 120+<br> cities across globe</h5>
+        <p class="secppp-ss">Salon Software for Salon & Spa Management in India, Qatar, United Arab <br>Emirates, Saudi
+            Arabia, Malaysia,
+            Singapore, Nigeria, Mauritius, <br>Maldives, Philippines.</p>
+        <p class="secppp-ss">Easy Salon gives you a lot of marketing tools like bulk SMS, eMail <br>marketing, online
+            appointment booking with
+            payment options,<br> membership, reward points, referral code, service bundles and a lot more.</p>
+        <img class="sec-good-r" src="images/google-5-star-png-8.png" alt="">
+    </div>
+
+    <!-- Increase your -->
+    <div class="container">
+        <h5 class="sec-incr-h">Increase your revenue & client retention</h5>
+        <div class="row m-0">
+            <div class="col-lg-4">
+                <div class="pt-4">
+                    <div class="sec-icon-bggg2">
+                        <img src="images/barbershop-membership-icon.png" alt="">
+                    </div>
+                    <h4 class="sec-app-h">Membership</h4>
+                    <p class="sec">With Easy Salon Software, you can earn the loyalty of your clients. Sell membership
+                        to your clients and offer them permanent discounts on services on the basis of their membership
+                        type.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="pt-4">
+                    <div class="sec-icon-bggg2">
+                        <img src="images/client-rewards.png" alt="">
+                    </div>
+                    <h4 class="sec-app-h">Reward points & wallet</h4>
+                    <p class="sec">Everyone loves extra! Reward your clients with points that can be availed against
+                        services and packages. Wallet system integration is another USP of Easy Salon Software.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="pt-4">
+                    <div class="sec-icon-bggg2">
+                        <img src="images/android-app-icon-salon.png" alt="">
+                    </div>
+                    <h4 class="sec-app-h">Online appointments</h4>
+                    <p class="sec">Easy Salon Software lets you earn and provide client service 24/7. Let your clients
+                        book
+                        an appointment through your website & mobile app anytime anywhere and pay you online.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h5 class="sec-incr-h">automate management of your salon & spa</h5>
+        <div class="row m-0">
+            <div class="col-lg-4">
+                <div class="pt-4">
+                    <div class="sec-icon-bggg2">
+                        <img src="images/pos.png" alt="">
+                    </div>
+                    <h4 class="sec-app-h">Billing</h4>
+                    <p class="sec">Easy Salon Software enables you to do GST & Non-GST billing for services, beauty
+                        products & packages. Easy Salon auto sends an invoice on clients phone via SMS & email.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="pt-4">
+                    <div class="sec-icon-bggg2">
+                        <img src="images/feedback-icon-salon.png" alt="">
+                    </div>
+                    <h4 class="sec-app-h">Feedback & rating</h4>
+                    <p class="sec">Easy Salon Software sends unique URL on clients phone via SMS / email requesting for
+                        feedback and star ratings. Client review gives you the scope of betterment and grows your
+                        business.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="pt-4">
+                    <div class="sec-icon-bggg2">
+                        <img src="images/membership.png" alt="">
+                    </div>
+                    <h4 class="sec-app-h">Inquiry Management</h4>
+                    <p class="sec">Never lose your potential clients! Timely follow up to your clients/ walk-ins &
+                        online leads increases 50% conversion rate. Easy Salon alerts you to follow up right on your
+                        dashboard.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="pt-4">
+                    <div class="sec-icon-bggg2">
+                        <img src="images/marketing.png" alt="">
+                    </div>
+                    <h4 class="sec-app-h">Marketing that works</h4>
+                    <p class="sec">Easy Salon Software comes with in-built marketing tools like coupons, bulk SMS &
+                        emails. Dig deeper into the picture, know which marketing effort works best for you by choosing
+                        the source of lead.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="pt-4">
+                    <div class="sec-icon-bggg2">
+                        <img src="images/client.png" alt="">
+                    </div>
+                    <h4 class="sec-app-h">Retain clients</h4>
+                    <p class="sec">Reminder for the inquiries who actually never showed up is a tool, enhancing your
+                        clientage. Tell members they are always on your mind with automatic birthday and anniversary
+                        SMS.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="pt-4">
+                    <div class="sec-icon-bggg2">
+                        <img src="images/stock.png" alt="">
+                    </div>
+                    <h4 class="sec-app-h">Stock made simple</h4>
+                    <p class="sec">Easy Salon Software reports each stock's current status. From it came, to who was the
+                        beauty product sold and how much was used in the salon. After all this, it automatically reminds
+                        you to buy products which are low in stock.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="pt-4">
+                    <div class="sec-icon-bggg2">
+                        <img src="images/barber.png" alt="">
+                    </div>
+                    <h4 class="sec-app-h">Staff commission and payroll</h4>
+                    <p class="sec">Easy Salon Software comes with automatic payroll and commission management. Just add
+                        the commission and sales target of the service provider on each service and sale Easy Salon will
+                        do the rest.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="pt-4">
+                    <div class="sec-icon-bggg2">
+                        <img class="sec-btn-imggg" src="images/reports.png" alt="">
+                    </div>
+                    <h4 class="sec-app-h">Daily reports</h4>
+                    <p class="sec">Whether you have one salon or more; Easy Salon Software auto sends you reports on
+                        emails for today's billing, walk-ins, and expenses. Easy Salon also gives you the option to
+                        export data in MS Excel format.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="pt-4">
+                    <div class="sec-icon-bggg2">
+                        <img src="images/multiple-properties-icon.png" alt="">
+                    </div>
+                    <h4 class="sec-app-h">Unlimited access</h4>
+                    <p class="sec">Easy Salon comes with no limits! Yes, add as many as employees, software users,
+                        clients, bills or products/services to your software. We do not have any limit on the number of
+                        entries you make on our software.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- video -->
+    <div class="container sec-video-paddimg">
+        <div class="row m-0">
+            <div class="col-lg-6">
+                <video controls poster="/images/v-1.jpg">
+                    <iframe src="https://www.youtube.com/embed/Kch8n4tcOZQ" allowfullscreen></iframe>
+            </div>
+            <div class="col-lg-6">
+                <video controls poster="/images/v-2.jpg">
+                    <iframe src="https://www.youtube.com/embed/Kch8n4tcOZQ" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Software  -->
+    <div class="container-fluid sec-video-paddimg2">
+        <div class="container">
+            <div class="row m-0">
+                <div class="col-lg-6">
+                    <h4 class="sec-try-h">Try Easy Salon Software & boost up your revenue</h4>
+                    <p class="sec-reg-p">Register today & get FREE appointment booking landing page for your business
+                        that enables you to
+                        get appointment from your facebook, instagram & website.</p>
+                    <form>
+                        <div class="row m-0">
+                            <div class="col-lg-6">
+                                <input type="text" class="form-control" placeholder="Salon Name" required>
+                            </div>
+                            <div class="col-lg-6 p-0">
+                                <input type="text" class="form-control" placeholder="Contact Person Name" required>
+                            </div>
+                            <div class="col-lg-6">
+                                <input type="email" class="form-control" placeholder="Email" required>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="row">
+                                    <div class=" col col-sm-3 p-0">
+                                        <select id="ccode" name="ccode" class="form-control">
+                                            <option value="+376">+376</option>
+                                            <option value="+971">+971</option>
+                                            <option value="+93">+93</option>
+                                            <option value="+1268">+1268</option>
+                                            <option value="+1264">+1264</option>
+                                            <option value="+355">+355</option>
+                                            <option value="+374">+374</option>
+                                            <option value="+599">+599</option>
+                                            <option value="+244">+244</option>
+                                            <option value="+672">+672</option>
+                                            <option value="+54">+54</option>
+                                            <option value="+1684">+1684</option>
+                                            <option value="+43">+43</option>
+                                            <option value="+61">+61</option>
+                                            <option value="+297">+297</option>
+                                            <option value="+994">+994</option>
+                                            <option value="+387">+387</option>
+                                            <option value="+1246">+1246</option>
+                                            <option value="+880">+880</option>
+                                            <option value="+32">+32</option>
+                                            <option value="+226">+226</option>
+                                            <option value="+359">+359</option>
+                                            <option value="+973">+973</option>
+                                            <option value="+257">+257</option>
+                                            <option value="+229">+229</option>
+                                            <option value="+590">+590</option>
+                                            <option value="+1441">+1441</option>
+                                            <option value="+673">+673</option>
+                                            <option value="+591">+591</option>
+                                            <option value="+55">+55</option>
+                                            <option value="+1242">+1242</option>
+                                            <option value="+975">+975</option>
+                                            <option value="+267">+267</option>
+                                            <option value="+375">+375</option>
+                                            <option value="+501">+501</option>
+                                            <option value="+1">+1</option>
+                                            <option value="+61">+61</option>
+                                            <option value="+243">+243</option>
+                                            <option value="+236">+236</option>
+                                            <option value="+242">+242</option>
+                                            <option value="+41">+41</option>
+                                            <option value="+225">+225</option>
+                                            <option value="+682">+682</option>
+                                            <option value="+56">+56</option>
+                                            <option value="+237">+237</option>
+                                            <option value="+86">+86</option>
+                                            <option value="+57">+57</option>
+                                            <option value="+506">+506</option>
+                                            <option value="+53">+53</option>
+                                            <option value="+238">+238</option>
+                                            <option value="+61">+61</option>
+                                            <option value="+357">+357</option>
+                                            <option value="+420">+420</option>
+                                            <option selected="" value="+49">+49</option>
+                                            <option value="+253">+253</option>
+                                            <option value="+45">+45</option>
+                                            <option value="+1767">+1767</option>
+                                            <option value="+1809">+1809</option>
+                                            <option value="+213">+213</option>
+                                            <option value="+593">+593</option>
+                                            <option value="+372">+372</option>
+                                            <option value="+20">+20</option>
+                                            <option value="+291">+291</option>
+                                            <option value="+34">+34</option>
+                                            <option value="+251">+251</option>
+                                            <option value="+358">+358</option>
+                                            <option value="+679">+679</option>
+                                            <option value="+500">+500</option>
+                                            <option value="+691">+691</option>
+                                            <option value="+298">+298</option>
+                                            <option value="+33">+33</option>
+                                            <option value="+241">+241</option>
+                                            <option value="+44">+44</option>
+                                            <option value="+1473">+1473</option>
+                                            <option value="+995">+995</option>
+                                            <option value="+233">+233</option>
+                                            <option value="+350">+350</option>
+                                            <option value="+299">+299</option>
+                                            <option value="+220">+220</option>
+                                            <option value="+224">+224</option>
+                                            <option value="+240">+240</option>
+                                            <option value="+30">+30</option>
+                                            <option value="+502">+502</option>
+                                            <option value="+1671">+1671</option>
+                                            <option value="+245">+245</option>
+                                            <option value="+592">+592</option>
+                                            <option value="+852">+852</option>
+                                            <option value="+504">+504</option>
+                                            <option value="+385">+385</option>
+                                            <option value="+509">+509</option>
+                                            <option value="+36">+36</option>
+                                            <option value="+62">+62</option>
+                                            <option value="+353">+353</option>
+                                            <option value="+972">+972</option>
+                                            <option value="+44">+44</option>
+                                            <option value="+91">+91</option>
+                                            <option value="+964">+964</option>
+                                            <option value="+98">+98</option>
+                                            <option value="+354">+354</option>
+                                            <option value="+39">+39</option>
+                                            <option value="+1876">+1876</option>
+                                            <option value="+962">+962</option>
+                                            <option value="+81">+81</option>
+                                            <option value="+254">+254</option>
+                                            <option value="+996">+996</option>
+                                            <option value="+855">+855</option>
+                                            <option value="+686">+686</option>
+                                            <option value="+269">+269</option>
+                                            <option value="+1869">+1869</option>
+                                            <option value="+850">+850</option>
+                                            <option value="+82">+82</option>
+                                            <option value="+965">+965</option>
+                                            <option value="+1345">+1345</option>
+                                            <option value="+7">+7</option>
+                                            <option value="+856">+856</option>
+                                            <option value="+961">+961</option>
+                                            <option value="+1758">+1758</option>
+                                            <option value="+423">+423</option>
+                                            <option value="+94">+94</option>
+                                            <option value="+231">+231</option>
+                                            <option value="+266">+266</option>
+                                            <option value="+370">+370</option>
+                                            <option value="+352">+352</option>
+                                            <option value="+371">+371</option>
+                                            <option value="+218">+218</option>
+                                            <option value="+212">+212</option>
+                                            <option value="+377">+377</option>
+                                            <option value="+373">+373</option>
+                                            <option value="+382">+382</option>
+                                            <option value="+1599">+1599</option>
+                                            <option value="+261">+261</option>
+                                            <option value="+692">+692</option>
+                                            <option value="+389">+389</option>
+                                            <option value="+223">+223</option>
+                                            <option value="+95">+95</option>
+                                            <option value="+976">+976</option>
+                                            <option value="+853">+853</option>
+                                            <option value="+1670">+1670</option>
+                                            <option value="+222">+222</option>
+                                            <option value="+1664">+1664</option>
+                                            <option value="+356">+356</option>
+                                            <option value="+230">+230</option>
+                                            <option value="+960">+960</option>
+                                            <option value="+265">+265</option>
+                                            <option value="+52">+52</option>
+                                            <option value="+60">+60</option>
+                                            <option value="+258">+258</option>
+                                            <option value="+264">+264</option>
+                                            <option value="+687">+687</option>
+                                            <option value="+227">+227</option>
+                                            <option value="+234">+234</option>
+                                            <option value="+505">+505</option>
+                                            <option value="+31">+31</option>
+                                            <option value="+47">+47</option>
+                                            <option value="+977">+977</option>
+                                            <option value="+674">+674</option>
+                                            <option value="+683">+683</option>
+                                            <option value="+64">+64</option>
+                                            <option value="+968">+968</option>
+                                            <option value="+507">+507</option>
+                                            <option value="+51">+51</option>
+                                            <option value="+689">+689</option>
+                                            <option value="+675">+675</option>
+                                            <option value="+63">+63</option>
+                                            <option value="+92">+92</option>
+                                            <option value="+48">+48</option>
+                                            <option value="+508">+508</option>
+                                            <option value="+870">+870</option>
+                                            <option value="+1">+1</option>
+                                            <option value="+351">+351</option>
+                                            <option value="+680">+680</option>
+                                            <option value="+595">+595</option>
+                                            <option value="+974">+974</option>
+                                            <option value="+40">+40</option>
+                                            <option value="+381">+381</option>
+                                            <option value="+7">+7</option>
+                                            <option value="+250">+250</option>
+                                            <option value="+966">+966</option>
+                                            <option value="+677">+677</option>
+                                            <option value="+248">+248</option>
+                                            <option value="+249">+249</option>
+                                            <option value="+46">+46</option>
+                                            <option value="+65">+65</option>
+                                            <option value="+290">+290</option>
+                                            <option value="+386">+386</option>
+                                            <option value="+421">+421</option>
+                                            <option value="+232">+232</option>
+                                            <option value="+378">+378</option>
+                                            <option value="+221">+221</option>
+                                            <option value="+252">+252</option>
+                                            <option value="+597">+597</option>
+                                            <option value="+239">+239</option>
+                                            <option value="+503">+503</option>
+                                            <option value="+963">+963</option>
+                                            <option value="+268">+268</option>
+                                            <option value="+1649">+1649</option>
+                                            <option value="+235">+235</option>
+                                            <option value="+228">+228</option>
+                                            <option value="+66">+66</option>
+                                            <option value="+992">+992</option>
+                                            <option value="+690">+690</option>
+                                            <option value="+670">+670</option>
+                                            <option value="+993">+993</option>
+                                            <option value="+216">+216</option>
+                                            <option value="+676">+676</option>
+                                            <option value="+90">+90</option>
+                                            <option value="+1868">+1868</option>
+                                            <option value="+688">+688</option>
+                                            <option value="+886">+886</option>
+                                            <option value="+255">+255</option>
+                                            <option value="+380">+380</option>
+                                            <option value="+256">+256</option>
+                                            <option value="+1">+1</option>
+                                            <option value="+598">+598</option>
+                                            <option value="+998">+998</option>
+                                            <option value="+39">+39</option>
+                                            <option value="+1784">+1784</option>
+                                            <option value="+58">+58</option>
+                                            <option value="+1284">+1284</option>
+                                            <option value="+1340">+1340</option>
+                                            <option value="+84">+84</option>
+                                            <option value="+678">+678</option>
+                                            <option value="+681">+681</option>
+                                            <option value="+685">+685</option>
+                                            <option value="+381">+381</option>
+                                            <option value="+967">+967</option>
+                                            <option value="+262">+262</option>
+                                            <option value="+27">+27</option>
+                                            <option value="+260">+260</option>
+                                            <option value="+263">+263</option>
+                                        </select>
+                                    </div>
+                                    <div class=" col col-sm-9 p-0">
+                                        <input type="text" id="phone" name="phone" class="form-control"
+                                            placeholder="Contact Number" data-validation="number">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 pt-5">
+                                <button type="submit" class="btn btn-primary">Get Started for FREE</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-6">
+                    <video controls poster="/images/v-3.jpg">
+                        <iframe src="https://www.youtube.com/embed/Kch8n4tcOZQ" allowfullscreen></iframe>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="container  sec-footer-padd">
+            <div class="row m-0">
+                <div class="col-lg-3">
+                    <p><a href="#" class="sec-link-p"><i class="fa-solid fa-angles-right"></i> Home</a></p>
+                    <p><a href="#" class="sec-link-p"><i class="fa-solid fa-angles-right"></i> Terms & conditions</a>
+                    </p>
+                    <p><a href="#" class="sec-link-p"><i class="fa-solid fa-angles-right"></i> Privacy Policy</a></p>
+                    <p><a href="#" class="sec-link-p"><i class="fa-solid fa-angles-right"></i> Sitemap</a></p>
+                    <p><a href="#" class="sec-link-p"><i class="fa-solid fa-angles-right"></i> Blog</a></p>
+
+                </div>
+                <div class="col-lg-6">
+                    <p><a href="#" class="sec-link-p"><i class="fa-solid fa-angles-right"></i> 7 Powerful Tactics to
+                            Build Salon Clientele</a></p>
+                    <p><a href="#" class="sec-link-p"><i class="fa-solid fa-angles-right"></i> 8 Tips on How to Motivate
+                            Your Salon Staff</a></p>
+                    <p><a href="#" class="sec-link-p"><i class="fa-solid fa-angles-right"></i> 6 Tips to Increase
+                            Natural Beauty during this Lockdown</a></p>
+                    <p><a href="#" class="sec-link-p"><i class="fa-solid fa-angles-right"></i> Learn how to use easy
+                            salon spa software</a></p>
+                    <p><a href="#" class="sec-link-p"><i class="fa-solid fa-angles-right"></i> How to Be On The Top of
+                            Google Maps For Free</a></p>
+                    <p><a href="#" class="sec-link-p"><i class="fa-solid fa-angles-right"></i> Prevent Pilferage at Your
+                            Spa or Salon with These FREE Tips</a></p>
+                </div>
+                <div class="col-lg-3">
+                    <div class="pb-4">
+                        <a href="#" class="d-sec-foo-icon"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="d-sec-foo-icon"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" class="d-sec-foo-icon"><i class="fa-brands fa-pinterest"></i></a>
+                        <a href="#" class="d-sec-foo-icon"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#" class="d-sec-foo-icon"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="d-sec-foo-icon"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                    <p><a class="lg-sec-ca" href="tel:+1 (778) 316-3762"> <img class="rounded"
+                                src="images/canada-flag.jpg" alt=""> +1 (778) 316-3762</a></p>
+                                <p><a class="lg-sec-ca" href="tel:+91 78884 91153"> <img class="rounded"
+                                    src="images/india-flag.jpg" alt=""> +91 78884 91153</a></p>
+                                    <p><a class="lg-sec-ca" href="mailto:manager@easysalon.in">eMail: manager@easysalon.in</a></p>
+                </div>
+            </div>
+
+            <div class="sec-copy">
+                <h5 class="sec-copy-h">Copyright © 2023 . Easy Salon is owned, developed & maintained by Shiv Softs<br>
+                    GST Registration Number: 03AEIFS5636J1ZT</h5>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
